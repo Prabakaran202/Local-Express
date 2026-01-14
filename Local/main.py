@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, HTTPException
 from pydantic import BaseModel
 from fastapi.templating import Jinja2Templates
-from fastapi.staticfiles import StaticFiles
+from starlette.staticfiles import StaticFiles
 
 app = FastAPI()
 
